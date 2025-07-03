@@ -1,0 +1,30 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: #2e2d2d;
+}
+
+/* Cards personalizadas */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(196, 46, 46, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  color: #25255e;
+  font-weight: bold;
+}
+.titulo{
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+

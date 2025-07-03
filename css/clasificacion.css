@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #131212;
+    }
+ .tabla-grupo {
+    background-color: #1c1c1e;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  .tabla-grupo thead {
+    background-color: #2a2a2c;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .tabla-grupo th,
+  .tabla-grupo td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .tabla-grupo td.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .tabla-grupo img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
+  .last-5 span {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 2px;
+  }
+
+  .gano { background-color: #28a745; }
+  .empate { background-color: #6c757d; }
+  .perdio { background-color: #dc3545; }
+
+
+  .gano, .empate, .perdio, .nodisputado {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 4px;
+  vertical-align: middle;
+}
+
+
