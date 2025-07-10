@@ -18,3 +18,45 @@ h2 , h3{
     width: 100%;
     filter: brightness(0.75);
 }
+
+
+
+/* Tabla de goleadores */
+.table-goleadores {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: #f8f9fa;
+}
+
+.table-goleadores thead {
+  background-color: #212529;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.table-goleadores tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+.table-goleadores tbody tr:hover {
+  background-color: #d6d8db;
+  cursor: pointer;
+}
+
+.table-goleadores td,
+.table-goleadores th {
+  padding: 14px;
+  vertical-align: middle;
+}
+
+.table-goleadores td:nth-child(1) {
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.table-goleadores td:nth-child(4) {
+  font-weight: bold;
+  color: #198754;
+}
+
